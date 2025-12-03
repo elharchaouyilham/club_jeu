@@ -99,4 +99,4 @@ j.titre
 FROM emprunt e
 JOIN member m ON e.id_member = m.id_member
 JOIN jeu j ON e.id_jeu = j.id_jeu
-WHERE e.date_finemprunt=
+WHERE e.date_finemprunt is null;
