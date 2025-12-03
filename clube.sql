@@ -94,7 +94,7 @@ select id_resultat from resultat order by score asc;
 
 
 
-SELECT m.pseudo
+SELECT m.pseudo ,
 j.titre  
 FROM emprunt e
 JOIN member m ON e.id_member = m.id_member
